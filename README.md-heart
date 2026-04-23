@@ -1,0 +1,30 @@
+# wavephysai-heart 🫀
+
+**Chaos-Mediated Synchronization in a Multi-Scale Biomorphic Coupled Oscillator Network**
+
+> Companion code for the manuscript submitted to *Chaos: An Interdisciplinary Journal of Nonlinear Science* (AIP, 2026)
+>
+> **Author:** Chur Chin — Dong-eui Medical Center, Busan, Republic of Korea
+> ✉ tpotaoai@gmail.com
+
+---
+
+## Overview
+
+Three-component nonlinear coupled oscillator model:
+
+| Component | Analogy | Equation |
+|---|---|---|
+| EM field *E(t)* | Neural / EM signaling | Duffing |
+| Heart oscillator *x(t)* | Cardiac rhythm ~1 Hz | Van der Pol |
+| Vascular wave *p(t)* | Blood pressure | Linear harmonic |
+
+**Key result:** chaos-onset scaling law *g*_crit(ω₀) ≈ aω₀² + bω₀ + c
+
+Parent repo: [wavephysai](https://github.com/Chur-chin/wavephysai)
+
+---
+
+## Quick Start
+
+```bash
